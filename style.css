@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url(./img/city.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ovskrift {
+  color:  plum;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.inbut {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#input {
+  width: 240px;
+  font-size: 15px;
+  background: transparent;
+  border: 1px solid plum;
+  outline: none;
+  border-radius: 4px;
+  padding: 5px 4px;
+  color: #fff;
+}
+
+button {
+  width: 240px;
+  font-size: 17px;
+  margin-top: 5px;
+  background: transparent;
+  border: 1px solid plum;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 3px 0px;
+  color: #fff;
+}
+
+.info {
+  text-align: center;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.info p {
+  margin-top: 5px;
+}
